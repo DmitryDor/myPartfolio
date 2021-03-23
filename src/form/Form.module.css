@@ -1,0 +1,29 @@
+.formblock {
+    height: 100vh;
+    background-color: #ff12e7;
+}
+
+.title {
+background-color: #dfdfe5;
+}
+.formContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.form {
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.inputAll {
+    width: 250px;
+    background-color: #cdf801;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
