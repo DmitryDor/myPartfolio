@@ -2,11 +2,12 @@
 @import '../../common/styles/sass/mixins';
 
 .project {
-  margin-top: 30px;
+
   width: 450px;
   background-color: $bgColor;
   display: flex;
   flex-direction: column;
+  margin: 30px auto;
 
   .icon {
     height: 250px;

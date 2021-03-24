@@ -1,0 +1,56 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
+
+.skill {
+  background-color: $bgColor;
+  padding: 40px 0px;
+  position: relative;
+  max-width: 340px;
+  margin: 30px auto; //при переносе центрирует
+
+  &:hover:before {
+    content: '';
+    position: absolute;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.1;
+  }
+
+  .icon {
+    background-color: $bgColor;
+    height: 80px;
+    width: 80px;
+    color: $primaryColor;
+    margin: 0px auto 20px;
+    display: block;
+    text-align: center;
+    position: relative;
+  }
+
+  .skillInfo {
+    padding-top: 30px;
+    text-align: center;
+
+    .skillTitle {
+      @include text($titleFontFamily, 16px, 700, 1.2);
+      text-transform: uppercase;
+      margin: 0 0 15px;
+      padding: 0;
+    }
+
+    .description {
+      @include text($textFontFamily, 14px, 400, 1.8);
+      padding-top: 30px;
+      text-align: center;
+      overflow-x: hidden;
+      background-color: $bgColor;
+    }
+  }
+}
+
+
+
+
