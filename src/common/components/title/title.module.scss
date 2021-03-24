@@ -1,0 +1,40 @@
+@import '../../styles/sass/variables';
+@import '../../styles/sass/mixins';
+
+
+
+.title {
+  margin-bottom: 30px;
+  position: relative;
+
+  h2 {
+
+    @include text($titleFontFamily, 36px, 400, 1.2);
+
+ /*   font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: $textColor;
+    line-height: 1.2;*/
+
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    margin: 0;
+  }
+
+  &::after {
+    position: absolute;
+    content: '';
+    background: $primaryColor;
+    width: 55px;
+    height: 1px;
+    bottom: -30px;
+    left: 50%; /* Выравнивает псевдоэл. по середине */
+    transform: translate(-50%, 50%); /* Выравнивает псевдоэл. по середине*/
+  }
+}
+
+
+
+
+

@@ -8,14 +8,14 @@ function Form() {
         <div className={style.formblock}>
             <div className={`${styleContainer.container} ${style.formContainer}`}>
                 <h2 className={style.title}> Контакты </h2>
-                <div className={style.form}>
-                    <div className={style.inputAll}>
+                <form className={style.form}>
+                    {/*<div className={style.inputAll}>*/}
                         <input type="text" placeholder={"Введите текст"}/>
                         <input type="text" placeholder={"Введите текст"}/>
                         <textarea placeholder="Введите информацию в текстовое поле"></textarea>
-                        <button>Отправить</button>
-                    </div>
-                </div>
+                        <button type='submit'>Отправить</button>
+                    {/*</div>*/}
+                </form>
             </div>
         </div>
     );
