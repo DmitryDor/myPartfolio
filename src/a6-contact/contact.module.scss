@@ -1,0 +1,46 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
+
+.contactBlock {
+  padding: 30px 0px;
+  background-color: $bgSecondColor;
+
+  .contactContainer {
+    height: 100%;
+    @include flex(column, space-between, center, wrap);
+    padding-bottom: 40px;
+
+    .contactsForm {
+      width: 100%;
+      max-width: 550px;
+      min-height: 150px;
+      margin-bottom: 20px;
+
+      .formArea, .messageArea {
+        width: 100%;
+        background: $bgSecondColor;
+        border: 1px solid $primaryColor;
+        box-sizing: border-box;
+        color: $textColor;
+        font-size: 18px;
+        outline: none;
+        margin-bottom: 1.2rem;
+
+        &:-webkit-autofill {
+          border: 1px solid $primaryColor;
+          -webkit-text-fill-color: $textColor;
+          -webkit-box-shadow: 0 0 0 1000px #212529 inset;
+          transition: background-color 5000s ease-in-out 0s;
+
+          &:focus {
+            border: 2px solid $bgSecondColor;
+          }
+        }
+      }
+
+      .messageArea {
+        height: 150px;
+      }
+    }
+  }
+}

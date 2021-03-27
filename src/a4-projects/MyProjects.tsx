@@ -1,16 +1,16 @@
 import React from 'react';
 import style from './MyProjects.module.scss';
-import styleContainer from './../common/styles/Container.module.css'
-import Project from './project/Project';
+import styleContainer from '../common/styles/Container.module.scss'
 import {Title} from '../common/components/title/title';
-import socialImage from '../assets/image/socialNetwork.jpg'
-import todoImage from '../assets/image/todo.jpg'
-import changeImage from '../assets/image/change.jpg'
-import cardsImage from '../assets/image/cards.jpg'
+import socialImage from '../b2-assets/image/socialNetwork.jpg'
+import todoImage from '../b2-assets/image/todo.jpg'
+import changeImage from '../b2-assets/image/change.jpg'
+import cardsImage from '../b2-assets/image/cards.jpg'
+import {Project} from "./project/Project";
 
 
 
-function MyProjects() {
+export function MyProjects() {
 
     const social = {
         backgroundImage: `url(${socialImage})`
@@ -27,8 +27,8 @@ function MyProjects() {
 
 
     return (
-        <div className={style.projectsblock}>
-            <div className={`${styleContainer.container} ${style.ProjectsContainer}`}>
+        <div className={style.projectsBlock}>
+            <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <Title title='My projects'/>
                 <div className={style.projects}>
                     <Project style={social}  title={"Название проекта 1"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ."}/>
@@ -41,4 +41,4 @@ function MyProjects() {
     );
 }
 
-export default MyProjects;
+

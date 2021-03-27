@@ -4,12 +4,12 @@ import style from './Skill.module.scss'
 type PropsType = {
     title: string,
     description: string
-    icon: any
+    icon:  any
 }
 
 export function Skill(props: PropsType) {
     return (
-        <div className={style.skill}>
+        <div className={style.skillBlock}>
             <div className={style.icon}>{props.icon}</div>
             <div className={style.skillInfo}>
                 <h3 className={style.skillTitle}>{props.title}</h3>

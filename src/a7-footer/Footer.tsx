@@ -1,11 +1,11 @@
 import React from 'react';
 import style from './Footer.module.scss';
-import styleContainer from './../common/styles/Container.module.css'
+import styleContainer from '../common/styles/Container.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faFacebookSquare, faInstagram, faLinkedinIn, faTelegramPlane} from "@fortawesome/free-brands-svg-icons";
 
 
-function Footer() {
+export function Footer() {
     return (
         <div className={style.footerblock}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
@@ -19,11 +19,11 @@ function Footer() {
 
                 </div>
                 <div>
-                    <h2 className={style.copyright}>© 2021 All Rights Reserved.</h2>
+                    <h2 className={style.copyrightBlock}>© 2021 All Rights Reserved.</h2>
                 </div>
             </div>
         </div>
     );
 }
 
-export default Footer;
+

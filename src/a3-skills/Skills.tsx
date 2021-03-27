@@ -1,17 +1,15 @@
 import React from 'react';
 import style from './Skills.module.scss';
-import styleContainer from './../common/styles/Container.module.css'
+import styleContainer from '../common/styles/Container.module.scss'
 
 import {Title} from '../common/components/title/title';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faHtml5, faJs, faReact} from '@fortawesome/free-brands-svg-icons';
-import {faEnvelope, faFileCode} from '@fortawesome/free-solid-svg-icons';
-import { Skill } from './Skill/Skill';
+import {faFileCode} from '@fortawesome/free-solid-svg-icons';
+import {Skill} from './Skill/Skill';
 
 
-
-
-function Skills() {
+export function Skills() {
     return (
         <div className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
@@ -34,4 +32,4 @@ function Skills() {
     );
 }
 
-export default Skills;
+

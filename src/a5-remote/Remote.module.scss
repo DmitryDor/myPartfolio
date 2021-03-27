@@ -1,83 +1,29 @@
-
-
+@import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
 
 .remoteBlock {
-    background: #252527;
-    padding: 100px 0;
-}
+  background: $bgColor;
+  padding: 100px 0;
 
-.remoteContainer {
+  .remoteContainer {
     flex-direction: column;
     justify-content: flex-start;
 
-}
+    .titleBlock {
+      margin-bottom: 30px;
+    }
 
-.titleBlock{
-margin-bottom: 30px;
-}
+    .buttonContainer {
+      display: flex;
 
-
-
-
-/*.title {
-background-color: #dfdfe5;
-}*/
-
-
-
-.button {
-  display: block;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.2;
-  font-family: Poppins, sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 1px;
-  padding: 7px 20px;
-  transition: all 0.4s ease-in-out 0s;
-  background: transparent;
-  color: #fff;
-  max-width: 170px;
-  margin: 15px auto;
-  z-index: 22;
-  text-align: center;
-  border-radius: 0px;
-  width: 100%;
-  border: none;
-  position: relative;
+    }
+  }
 }
 
 
-button:after{
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 10px;
-  width: 60%;
-  background: #4e93e6;
-  z-index: -1;
-  transition: all 0.2s ease-in-out 0s;
-  margin: 0 auto;
-  //box-sizing: border-box;
-}
 
-/*.button{
-  @extend .btn;
-  margin-left: auto;
-  margin-right: auto;
-}*/
 
-/*button ::after, ::before {
-  box-sizing: border-box;
-}*/
 
-/*.projects {
-    border: 1px solid;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}*/
+
+
+

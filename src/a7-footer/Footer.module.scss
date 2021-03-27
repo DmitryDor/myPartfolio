@@ -1,0 +1,45 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
+
+.footerblock {
+  min-height: 200px;
+  background-color: $bgColor;
+
+  .footerContainer {
+
+    .footerTitle {
+      @include text($titleFontFamily, 22px, 700, 1.2);
+      letter-spacing: 3px;
+      margin: 30px auto;
+      display: block;
+    }
+
+    .networkBlock {
+      width: 100%;
+      @include flex(row, center, center, wrap);
+
+      .FontAwesomeIcon {
+        padding: 4px;
+      }
+
+      .icon {
+        margin-right: 5px;
+        width: 40px;
+        height: 40px;
+        background-color: #cdf801;
+        text-align: center;
+      }
+    }
+
+    .copyrightBlock {
+      margin-top: 20px;
+      @include text($textFontFamily, 14px, 400, 1.8);
+    }
+  }
+}
+
+
+
+
+
+
