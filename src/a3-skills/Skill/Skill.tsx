@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Skill.module.scss';
+import style from './Skill.module.scss'
 
 type PropsType = {
     title: string,
@@ -7,7 +7,7 @@ type PropsType = {
     icon: any
 }
 
-function Skill(props: PropsType) {
+export function Skill(props: PropsType) {
     return (
         <div className={style.skill}>
             <div className={style.icon}>{props.icon}</div>
@@ -19,5 +19,5 @@ function Skill(props: PropsType) {
     );
 }
 
-export default Skill;
+
 

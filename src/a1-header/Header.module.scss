@@ -1,0 +1,23 @@
+@import '../common/styles/sass/variables.scss';
+
+.header {
+/*    height: 80px; !*высота a1-header*!
+    background-color: #94f3ff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;*/
+    position: fixed;
+    z-index: 1000;
+    //opacity: .8;
+    width: 100%;
+    top: 0;
+    min-height: 80px;
+    background-color: $bgColor;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container {
+    justify-content: flex-end;
+}

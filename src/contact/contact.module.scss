@@ -1,0 +1,103 @@
+@import "../common/styles/sass/variables";
+
+.contactBlock {
+
+  padding: 30px 0px;
+  background-color: $bgSecondColor;
+
+  .contactContainer {
+    //@extend container;
+    height: 100%;
+
+    flex-direction: column;
+    align-items: center;
+    //justify-content: space-around;
+
+    /**/
+    flex-wrap: wrap;
+
+
+
+    //@include flex(column, space-around, center, wrap);
+    display: flex;
+
+    padding-bottom:40px;
+
+    .contactsForm {
+
+      width: 100%;
+      max-width: 550px;
+      min-height: 150px;
+      flex-direction: column;
+      justify-content: space-between;
+      //align-items: ;
+      flex-wrap: wrap;
+      //@include flex(column, space-between, space-between, wrap);
+      margin-bottom: 20px;
+
+      .formArea, .messageArea {
+        width: 100%;
+        background: $bgSecondColor;
+        border: 1px solid $primaryColor;
+        box-sizing: border-box;
+        color: $textColor;
+        font-size: 18px;
+        outline: none;
+        margin-bottom: 1.2rem;
+        &:-webkit-autofill{
+          border: 1px solid $primaryColor;
+          -webkit-text-fill-color: $textColor;
+          -webkit-box-shadow: 0 0 0 1000px #212529 inset;
+          transition: background-color 5000s ease-in-out 0s;
+          &:focus{
+            border: 2px solid $bgSecondColor;
+          }
+        }
+      }
+      .messageArea{
+        height: 150px;
+      }
+
+    }
+    .button {
+      display: block;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.2;
+      font-family: Poppins, sans-serif;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 1px;
+      padding: 7px 20px;
+      transition: all 0.4s ease-in-out 0s;
+      background: transparent;
+      color: #fff;
+      max-width: 170px;
+      margin: 15px auto;
+      z-index: 22;
+      text-align: center;
+      border-radius: 0px;
+      width: 100%;
+      border: none;
+      position: relative;
+    }
+
+
+    button:after{
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 10px;
+      width: 67%;
+      background: #4e93e6;
+      z-index: -1;
+      transition: all 0.2s ease-in-out 0s;
+      margin: 0 auto;
+      //box-sizing: border-box;
+    }
+
+
+  }
+}

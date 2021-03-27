@@ -1,11 +1,14 @@
 import React from 'react';
 import style from './Skills.module.scss';
 import styleContainer from './../common/styles/Container.module.css'
-import Skill from '../Skill/Skill';
+
 import {Title} from '../common/components/title/title';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faHtml5, faJs, faReact} from '@fortawesome/free-brands-svg-icons';
 import {faEnvelope, faFileCode} from '@fortawesome/free-solid-svg-icons';
+import { Skill } from './Skill/Skill';
+
+
 
 
 function Skills() {

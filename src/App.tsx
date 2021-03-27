@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 
-import Skills from "./skills/Skills";
+import Skills from "./a3-skills/Skills";
 import MyProjects from "./myProjects/MyProjects";
-import Remote from "./remote/Remote";
-import Header from "./header/Header";
-import Main from "./main/Main";
-import Form from "./form/Form";
+import Header from "./a1-header/Header";
+import Main from "./a2-main/Main";
 import Footer from "./footer/Footer";
+import { Contact } from './contact/Contact';
+import Remote from './a5-remote/Remote';
 
 
 
@@ -19,7 +19,7 @@ function App() {
             <Skills/>
             <MyProjects />
             <Remote />
-            <Form />
+            <Contact />
             <Footer />
         </div>
     );

@@ -1,0 +1,54 @@
+@import "../common/styles/sass/variables";
+
+.footerblock {
+    min-height: 200px;
+    background-color: $bgColor;
+}
+
+
+.footerContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footerTitle {
+    letter-spacing: 3px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 30px auto;
+    display: block;
+    line-height: 1.2;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.networkBlock {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.FontAwesomeIcon{
+    padding: 4px;
+}
+
+.icon {
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: #cdf801;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.copyright{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, .5);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.8;
+    font-family: Poppins, sans-serif;
+}
+

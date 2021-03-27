@@ -2,13 +2,11 @@
 @import '../../styles/sass/mixins';
 
 
-
 .title {
   margin-bottom: 30px;
   position: relative;
 
   h2 {
-
     @include text($titleFontFamily, 36px, 400, 1.2);
     letter-spacing: 5px;
     text-transform: capitalize;
