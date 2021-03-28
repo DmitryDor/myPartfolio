@@ -6,6 +6,7 @@
   background-color: $bgColor;
 
   .skillsContainer {
+    @include container();
     .skills {
       @include flex(row, space-between, flex-start, wrap);
       width: 100%;

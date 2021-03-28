@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './Remote.module.scss';
-import styleContainer from '../common/styles/Container.module.scss'
 import {Title} from '../common/components/title/title';
 import {Button} from "../common/components/button/Button";
 

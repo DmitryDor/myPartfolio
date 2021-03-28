@@ -16,3 +16,9 @@
   align-items: $alignItems;
   flex-wrap: $flexWrap;
 }
+
+@mixin container() {
+  width: 90%;
+  margin: 0 auto;
+  @include flex(column, space-between, center, wrap)
+}

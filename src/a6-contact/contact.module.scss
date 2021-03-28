@@ -6,6 +6,7 @@
   background-color: $bgSecondColor;
 
   .contactContainer {
+    @include container();
     height: 100%;
     @include flex(column, space-between, center, wrap);
     padding-bottom: 40px;
@@ -29,7 +30,7 @@
         &:-webkit-autofill {
           border: 1px solid $primaryColor;
           -webkit-text-fill-color: $textColor;
-          -webkit-box-shadow: 0 0 0 1000px #212529 inset;
+          -webkit-box-shadow: 0 0 0 1000px $bgSecondColor inset;
           transition: background-color 5000s ease-in-out 0s;
 
           &:focus {

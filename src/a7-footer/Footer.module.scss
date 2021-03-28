@@ -6,6 +6,7 @@
   background-color: $bgColor;
 
   .footerContainer {
+    @include container();
 
     .footerTitle {
       @include text($titleFontFamily, 22px, 700, 1.2);
@@ -19,7 +20,7 @@
       @include flex(row, center, center, wrap);
 
       .FontAwesomeIcon {
-        padding: 4px;
+        padding: 15px;
       }
 
       .icon {

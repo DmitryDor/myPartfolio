@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './Footer.module.scss';
-import styleContainer from '../common/styles/Container.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faFacebookSquare, faInstagram, faLinkedinIn, faTelegramPlane} from "@fortawesome/free-brands-svg-icons";
 

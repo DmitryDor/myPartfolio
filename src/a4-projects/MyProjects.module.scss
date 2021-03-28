@@ -5,6 +5,7 @@
   background-color: $bgSecondColor;
 
   .projectsContainer {
+    @include container();
 
     .projects {
       @include flex(row, space-between, flex-start, wrap);
