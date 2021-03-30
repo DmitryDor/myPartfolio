@@ -2,7 +2,7 @@ import React from 'react';
 import style from './Main.module.scss';
 import me from '../b2-assets/image/me.jpg'
 import Particles from 'react-particles-js'
-// import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal/Fade';
 
 
 function Main() {
@@ -23,7 +23,8 @@ function Main() {
     return (
         <div className={style.mainBlock}>
 
-                <Particles className={style.particles} params={particlesOptions}/>
+            <Particles className={style.particles} params={particlesOptions}/>
+            <Fade left>
                 <div className={`${style.mainContainer}`}>
                     <div className={style.text}>
                         <span>Hi There</span>
@@ -34,9 +35,11 @@ function Main() {
                         <img className={style.foto} src={me} alt='Me'/>
                     </div>
                 </div>
+            </Fade>
 
         </div>
-    );
+    )
+        ;
 }
 
 export default Main;
