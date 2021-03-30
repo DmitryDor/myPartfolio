@@ -3,6 +3,8 @@ import style from './Main.module.scss';
 import me from '../b2-assets/image/me.jpg'
 import Particles from 'react-particles-js'
 import Fade from 'react-reveal/Fade';
+import ReactTypingEffect from 'react-typing-effect';
+import Tilt from 'react-tilt'
 
 
 function Main() {
@@ -29,11 +31,16 @@ function Main() {
                     <div className={style.text}>
                         <span>Hi There</span>
                         <h1>I am <br/> Dmitry Doroshenko</h1>
-                        <p>Frontend Developer</p>
+                        <ReactTypingEffect
+                            text='Frontend Developer' className={style.typingEffect}
+                        />
                     </div>
-                    <div className={style.fotoContainer}>
-                        <img className={style.foto} src={me} alt='Me'/>
-                    </div>
+                    <Tilt className={style.Tilt} options={{ max : 25 }}  >
+                        <div className={style.fotoContainer}>
+                            <img className={style.foto} src={me} alt='Me'/>
+                        </div>
+                    </Tilt>
+
                 </div>
             </Fade>
 

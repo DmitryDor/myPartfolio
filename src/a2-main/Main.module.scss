@@ -37,6 +37,7 @@
         padding: 10px 0 10px;
         letter-spacing: 5px;
         position: relative;
+        //display: inline-block;
       }
 
       h1::after {
@@ -47,9 +48,10 @@
         height: 15px;
         bottom: -5px;
         left: 0%;
+        //z-index: -1;
       }
 
-      p {
+      .typingEffect {
         @include text($textFontFamily, 27px, 400, 1.8);
         flex-wrap: wrap;
       }
