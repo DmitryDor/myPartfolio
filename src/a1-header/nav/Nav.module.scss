@@ -1,0 +1,24 @@
+@import "../../common/styles/sass/mixins";
+@import "../../common/styles/sass/variables";
+
+
+.nav {
+  @include text($titleFontFamily, 18px, 700, 1.2);
+  @include flex(row, space-around, center, wrap);
+  width: 350px;
+  cursor: pointer;
+
+  a {
+    color: $textColor;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+      color: $primaryColor;
+    }
+  }
+
+  .active {
+    color: $primaryColor;
+  }
+}

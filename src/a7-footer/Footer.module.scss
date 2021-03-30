@@ -8,12 +8,17 @@
   .footerContainer {
     @include container();
 
-    .footerTitle {
-      @include text($titleFontFamily, 22px, 700, 1.2);
-      letter-spacing: 3px;
-      margin: 30px auto;
-      display: block;
+    .ref {
+      text-decoration: none;
+
+      .footerTitle {
+        @include text($titleFontFamily, 22px, 700, 1.2);
+        letter-spacing: 3px;
+        margin: 30px auto;
+        display: block;
+      }
     }
+
 
     .networkBlock {
       width: 100%;

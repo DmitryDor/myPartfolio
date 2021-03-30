@@ -23,7 +23,7 @@ function Main() {
 
 
     return (
-        <div className={style.mainBlock}>
+        <div id='main' className={style.mainBlock}>
 
             <Particles className={style.particles} params={particlesOptions}/>
             <Fade left>

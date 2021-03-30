@@ -26,7 +26,7 @@ export function MyProjects() {
 
 
     return (
-        <div className={style.projectsBlock}>
+        <div id='projects' className={style.projectsBlock}>
             <Fade left>
                 <div className={`${style.projectsContainer}`}>
                     <Title title='My projects'/>

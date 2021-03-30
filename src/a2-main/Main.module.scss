@@ -59,7 +59,6 @@
 
     .fotoContainer {
       width: 400px;
-      //margin-bottom: 10px;
       position: relative;
 
       .foto {
@@ -73,7 +72,7 @@
           position: absolute;
           height: 110%;
           width: 105%;
-          border: 5px solid white;
+          border: 5px solid $primaryColor;
           left: 15px;
           top: -15px;
           z-index: -1;

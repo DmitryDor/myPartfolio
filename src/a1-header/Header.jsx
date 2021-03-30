@@ -1,9 +1,10 @@
 import React from 'react';
 import style from './Header.module.scss';
-import Nav from "../b1-nav/Nav";
+import Nav from "./nav/Nav";
 
 
 export function Header() {
+
     return (
         <div className={style.headerBlock}>
                 <Nav />
