@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b3a5425e1c7aa2b4a7ca852c31e3e2a",
+    "revision": "19d46d6fd0425f09e88f63f7a58b0525",
     "url": "/myPartfolio/index.html"
   },
   {
-    "revision": "44d7c855610e042889fd",
-    "url": "/myPartfolio/static/css/main.0fb7c9b6.chunk.css"
+    "revision": "407fba4c34913311c344",
+    "url": "/myPartfolio/static/css/main.aa91c9fb.chunk.css"
   },
   {
-    "revision": "a8f38fb0928c2558870a",
-    "url": "/myPartfolio/static/js/2.37deef27.chunk.js"
+    "revision": "61ef88118551156f6ee7",
+    "url": "/myPartfolio/static/js/2.b7a79b19.chunk.js"
   },
   {
     "revision": "139333eab6c0b4db748624ffd60efc64",
-    "url": "/myPartfolio/static/js/2.37deef27.chunk.js.LICENSE.txt"
+    "url": "/myPartfolio/static/js/2.b7a79b19.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "44d7c855610e042889fd",
-    "url": "/myPartfolio/static/js/main.ec899bec.chunk.js"
+    "revision": "407fba4c34913311c344",
+    "url": "/myPartfolio/static/js/main.727ced08.chunk.js"
   },
   {
     "revision": "20207b4760c46f0c7ab6",
