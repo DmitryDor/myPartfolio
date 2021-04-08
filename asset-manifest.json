@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/myPartfolio/static/css/main.176fecb2.chunk.css",
-    "main.js": "/myPartfolio/static/js/main.812a279e.chunk.js",
-    "main.js.map": "/myPartfolio/static/js/main.812a279e.chunk.js.map",
+    "main.js": "/myPartfolio/static/js/main.fe9a1318.chunk.js",
+    "main.js.map": "/myPartfolio/static/js/main.fe9a1318.chunk.js.map",
     "runtime-main.js": "/myPartfolio/static/js/runtime-main.eed82111.js",
     "runtime-main.js.map": "/myPartfolio/static/js/runtime-main.eed82111.js.map",
     "static/js/2.b847160b.chunk.js": "/myPartfolio/static/js/2.b847160b.chunk.js",
     "static/js/2.b847160b.chunk.js.map": "/myPartfolio/static/js/2.b847160b.chunk.js.map",
     "index.html": "/myPartfolio/index.html",
-    "precache-manifest.d4fa4459bc078385d8a4c5f532768c9e.js": "/myPartfolio/precache-manifest.d4fa4459bc078385d8a4c5f532768c9e.js",
+    "precache-manifest.378ff807bccae4c173791e97f86c18bf.js": "/myPartfolio/precache-manifest.378ff807bccae4c173791e97f86c18bf.js",
     "service-worker.js": "/myPartfolio/service-worker.js",
     "static/css/main.176fecb2.chunk.css.map": "/myPartfolio/static/css/main.176fecb2.chunk.css.map",
     "static/js/2.b847160b.chunk.js.LICENSE.txt": "/myPartfolio/static/js/2.b847160b.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.eed82111.js",
     "static/js/2.b847160b.chunk.js",
     "static/css/main.176fecb2.chunk.css",
-    "static/js/main.812a279e.chunk.js"
+    "static/js/main.fe9a1318.chunk.js"
   ]
 }
