@@ -61,22 +61,24 @@
       width: 400px;
       position: relative;
 
+      &:before {
+        content: '';
+        position: absolute;
+        height: 110%;
+        width: 105%;
+        border: 5px solid $primaryColor;
+        left: 15px;
+        top: -15px;
+        z-index: -1;
+      }
+
       .foto {
         width: 100%;
         background-color: #e0e0e0;
         background-position: 80% 0;
         position: relative;
 
-        &:before {
-          content: '';
-          position: absolute;
-          height: 110%;
-          width: 105%;
-          border: 5px solid $primaryColor;
-          left: 15px;
-          top: -15px;
-          z-index: -1;
-        }
+
       }
     }
   }
