@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/myPartfolio/static/css/main.176fecb2.chunk.css",
-    "main.js": "/myPartfolio/static/js/main.a08d0e07.chunk.js",
-    "main.js.map": "/myPartfolio/static/js/main.a08d0e07.chunk.js.map",
+    "main.css": "/myPartfolio/static/css/main.d4889568.chunk.css",
+    "main.js": "/myPartfolio/static/js/main.9e321e6a.chunk.js",
+    "main.js.map": "/myPartfolio/static/js/main.9e321e6a.chunk.js.map",
     "runtime-main.js": "/myPartfolio/static/js/runtime-main.eed82111.js",
     "runtime-main.js.map": "/myPartfolio/static/js/runtime-main.eed82111.js.map",
-    "static/js/2.b847160b.chunk.js": "/myPartfolio/static/js/2.b847160b.chunk.js",
-    "static/js/2.b847160b.chunk.js.map": "/myPartfolio/static/js/2.b847160b.chunk.js.map",
+    "static/js/2.6a301f3f.chunk.js": "/myPartfolio/static/js/2.6a301f3f.chunk.js",
+    "static/js/2.6a301f3f.chunk.js.map": "/myPartfolio/static/js/2.6a301f3f.chunk.js.map",
     "index.html": "/myPartfolio/index.html",
-    "precache-manifest.b395b90fffd623ba227f3956799b4a11.js": "/myPartfolio/precache-manifest.b395b90fffd623ba227f3956799b4a11.js",
+    "precache-manifest.bcc7c8612cd598904105f4d0b8e0aedc.js": "/myPartfolio/precache-manifest.bcc7c8612cd598904105f4d0b8e0aedc.js",
     "service-worker.js": "/myPartfolio/service-worker.js",
-    "static/css/main.176fecb2.chunk.css.map": "/myPartfolio/static/css/main.176fecb2.chunk.css.map",
-    "static/js/2.b847160b.chunk.js.LICENSE.txt": "/myPartfolio/static/js/2.b847160b.chunk.js.LICENSE.txt",
+    "static/css/main.d4889568.chunk.css.map": "/myPartfolio/static/css/main.d4889568.chunk.css.map",
+    "static/js/2.6a301f3f.chunk.js.LICENSE.txt": "/myPartfolio/static/js/2.6a301f3f.chunk.js.LICENSE.txt",
     "static/media/cards.jpg": "/myPartfolio/static/media/cards.0b47f22a.jpg",
     "static/media/change.jpg": "/myPartfolio/static/media/change.2b02c6d3.jpg",
-    "static/media/me.jpg": "/myPartfolio/static/media/me.7f90acbb.jpg",
+    "static/media/me.jpg": "/myPartfolio/static/media/me.2d21efd7.jpg",
     "static/media/socialNetwork.jpg": "/myPartfolio/static/media/socialNetwork.c1b82cd0.jpg",
     "static/media/todo.jpg": "/myPartfolio/static/media/todo.f082144e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.eed82111.js",
-    "static/js/2.b847160b.chunk.js",
-    "static/css/main.176fecb2.chunk.css",
-    "static/js/main.a08d0e07.chunk.js"
+    "static/js/2.6a301f3f.chunk.js",
+    "static/css/main.d4889568.chunk.css",
+    "static/js/main.9e321e6a.chunk.js"
   ]
 }
