@@ -31,14 +31,13 @@ export function MyProjects() {
                 <div className={`${style.projectsContainer}`}>
                     <Title title='My projects'/>
                     <div className={style.projects}>
-                        <Project style={social} title={"Название проекта 1"}
-                                 description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ."}/>
-                        <Project style={todo} title={"Название проекта 2"}
-                                 description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum rerum, unde. "}/>
-                        <Project style={change} title={"Название проекта 3"}
-                                 description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum rerum, unde. "}/>
-                        <Project style={cards} title={"Название проекта 3"}
-                                 description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum rerum, unde. "}/>
+                        <Project style={todo} title={"ToDo"} href={'https://DmitryDor.github.io/MyTodolist/'}
+                                 description={"Technologies: React, Redux, REST API, Typescript, Material-UI," +
+                                 " Storybook, Unit-tests, IN PROGRESS "}/>
+                        <Project style={change} title={"Currency Exchange"} href={'https://DmitryDor.github.io/Currency_exchange/'}
+                                 description={"Technologies: React, Redux, Typescript "}/>
+                        <Project style={cards} title={"Cards Questions"}
+                                 description={"Technologies: React, Redux, REST API, Typescript, Formik, Material-UI, Unit-tests "}/>
                     </div>
                 </div>
             </Fade>

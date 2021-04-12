@@ -1,0 +1,60 @@
+@import "../../common/styles/sass/mixins";
+@import "../../common/styles/sass/variables";
+
+
+.burgerNav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  .burgerNavItems {
+    @include text($titleFontFamily, 18px, 700, 1.2);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 53px;
+    right: 15px;
+
+    a {
+      color: $textColor;
+      text-decoration: none;
+      margin: 3px;
+
+      &:hover {
+        text-decoration: none;
+        color: $primaryColor;
+        cursor: pointer;
+      }
+    }
+
+    .active {
+      color: $primaryColor;
+    }
+  }
+
+  @media screen and(min-width: 400px) {
+    display: none;
+  }
+
+  .hamburger {
+    position: fixed;
+    right: 20px;
+    top: 15px;
+    width: 40px;
+    height: 25px;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+  }
+
+  .hamburger:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 100%;
+    border-top: 5px solid #fff;
+  }
+}
+

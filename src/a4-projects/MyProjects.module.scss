@@ -3,6 +3,7 @@
 
 .projectsBlock {
   background-color: $bgSecondColor;
+  padding: 80px 0;
 
   .projectsContainer {
     @include container();

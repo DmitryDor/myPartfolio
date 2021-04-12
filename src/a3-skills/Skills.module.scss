@@ -2,8 +2,10 @@
 @import '../common/styles/sass/mixins';
 
 .skillsBlock {
+  
   min-height: 50vh;
   background-color: $bgColor;
+  padding: 80px 0;
 
   .skillsContainer {
     @include container();

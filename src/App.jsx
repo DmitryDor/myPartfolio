@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 import {Contact} from './a6-contact/Contact';
 import {Header} from './a1-header/Header';

@@ -2,7 +2,7 @@
 @import '../common/styles/sass/mixins';
 
 .contactBlock {
-  padding: 30px 0px;
+  padding: 80px 0;
   background-color: $bgSecondColor;
 
   .contactContainer {
@@ -12,6 +12,7 @@
     padding-bottom: 40px;
 
     .contactsForm {
+      padding-top: 30px;
       width: 100%;
       max-width: 550px;
       min-height: 150px;
@@ -19,13 +20,14 @@
 
       .formArea, .messageArea {
         width: 100%;
-        background: $bgSecondColor;
-        border: 1px solid $primaryColor;
+        background: $bgColor;
+        border: 1px solid darkgrey;
         box-sizing: border-box;
         color: $textColor;
         font-size: 18px;
         outline: none;
-        margin-bottom: 1.2rem;
+        margin-bottom: 1.4rem;
+        height: 2.5rem;
 
         &:-webkit-autofill {
           border: 1px solid $primaryColor;

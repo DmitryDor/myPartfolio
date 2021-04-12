@@ -14,7 +14,7 @@ function Main() {
             "number": {
                 "value": 150,
                 "dansity": {
-                    "enable": true,
+                    "enable": false,
                     "value_area": 800
                 }
             },

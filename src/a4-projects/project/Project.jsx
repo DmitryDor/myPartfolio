@@ -9,7 +9,7 @@ export function Project(props) {
     return (
         <div className={style.project}>
             <div className={style.icon} style={props.style}>
-                <Button title='view more'/>
+                <Button title='view more' href={props.href}/>
             </div>
             <div className={style.projectInfo}>
                 <h3 className={style.projectTitle}>{props.title}</h3>

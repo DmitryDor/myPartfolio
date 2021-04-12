@@ -2,33 +2,47 @@
 @import '../common/styles/sass/mixins';
 
 .mainBlock {
+
+  @include container();
+
   min-height: 100vh;
   background-color: $bgSecondColor;
   padding-top: 180px;
- position: relative;
+  padding-bottom: 40px;
+  position: relative;
+  width: 100%;
 
-  .particles{
+  @media screen and(max-width: 930px) {
+    padding-top: 0;
+  }
+
+  .particles {
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    opacity: 0.3;
+    opacity: 0.4;
   }
 
   .mainContainer {
     @include container();
     @include flex(row, space-around, center, wrap);
+    padding-top: 70px;
+
 
     .text {
       min-height: 300px;
-      background-color: $bgSecondColor;
       flex-wrap: wrap;
+
 
       span {
         @include text($textFontFamily, 16px, 400, 1.8);
         flex-wrap: wrap;
         background-color: $bgSecondColor;
+        @media screen and(max-width: 930px) {
+          display: none;
+        }
       }
 
       h1 {
@@ -37,7 +51,9 @@
         padding: 10px 0 10px;
         letter-spacing: 5px;
         position: relative;
-        //display: inline-block;
+        @media screen and(max-width: 930px) {
+          font-size: 35px;
+        }
       }
 
       h1::after {
@@ -48,35 +64,40 @@
         height: 15px;
         bottom: -5px;
         left: 0%;
-        //z-index: -1;
+
       }
 
       .typingEffect {
         @include text($textFontFamily, 27px, 400, 1.8);
         flex-wrap: wrap;
+        display: inline-block;
+        padding-bottom: 30px;
       }
     }
 
     .fotoContainer {
-      width: 400px;
+      width: 293px;
       position: relative;
+
 
       .foto {
         width: 100%;
-        background-color: #e0e0e0;
+        //background-color: #e0e0e0;
         background-position: 80% 0;
         position: relative;
 
-        &:before {
-          content: '';
-          position: absolute;
-          height: 110%;
-          width: 105%;
-          border: 5px solid $primaryColor;
-          left: 15px;
-          top: -15px;
-          z-index: -1;
-        }
+
+      }
+
+      &:before {
+        content: '';
+        position: absolute;
+        height: 110%;
+        width: 100%;
+        border: 5px solid $primaryColor;
+        left: 5px;
+        top: -15px;
+
       }
     }
   }

@@ -8,17 +8,6 @@
   max-width: 340px;
   margin: 30px auto; //при переносе центрирует
 
-  &:hover:before {
-    content: '';
-    position: absolute;
-    background-color: black;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0.1;
-  }
-
   .icon {
     background-color: $bgColor;
     height: 80px;
