@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "495cdfd8cc3e0df00f772a876da5b386",
+    "revision": "2c53b9bdcab7d52a94be51ebe7c485c5",
     "url": "/myPartfolio/index.html"
   },
   {
-    "revision": "263abfcfd0858ca116d0",
+    "revision": "045ed76618a3f6ee250f",
     "url": "/myPartfolio/static/css/main.176fecb2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myPartfolio/static/js/2.b847160b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "263abfcfd0858ca116d0",
-    "url": "/myPartfolio/static/js/main.a08d0e07.chunk.js"
+    "revision": "045ed76618a3f6ee250f",
+    "url": "/myPartfolio/static/js/main.980e1825.chunk.js"
   },
   {
     "revision": "20207b4760c46f0c7ab6",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myPartfolio/static/media/change.2b02c6d3.jpg"
   },
   {
-    "revision": "7f90acbbbcf1a7c70014a576dd0cfda5",
-    "url": "/myPartfolio/static/media/me.7f90acbb.jpg"
+    "revision": "2d21efd7f018d79c0af6ddcb8fbae374",
+    "url": "/myPartfolio/static/media/me.2d21efd7.jpg"
   },
   {
     "revision": "c1b82cd0bd8195ac68b7aeff279b843c",
